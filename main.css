@@ -48,7 +48,14 @@ nav a:hover {
   border: 4px solid #0078ff;
   margin-bottom: 20px;
 }
-
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0078ff;
+  margin-bottom: 20px;
+}
 
 h1 {
   font-size: 2rem;
