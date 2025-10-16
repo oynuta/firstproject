@@ -159,31 +159,22 @@ footer i:hover {
   color: #a1c4fd;
   transform: translateY(-3px);
 }
-/* 🌸 Spacing Between Sections */
-section {
-  padding: 70px 20px;     /* was 100px */
-  margin: 50px auto;      /* was 80px */
-}
-
+/* --- FIX SECTION SPACING --- */
+.hero,
 .about,
-#services,
-#portfolio {
-  margin-top: 80px;
-  margin-bottom: 80px;
+.projects,
+.contact {
+  padding: 70px 20px;   /* reduce tall space inside sections */
+  margin: 40px auto;    /* reduce outer gap between sections */
 }
 
-/* Optional: subtle fade divider line between sections */
-section:not(:last-child)::after {
-  content: "";
-  display: block;
-  width: 80%;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 60px auto 0;
-}
+/* Optional: make the whole flow smoother on all devices */
 @media (max-width: 768px) {
-  section {
+  .hero,
+  .about,
+  .projects,
+  .contact {
     padding: 60px 15px;
-    margin: 40px auto;
+    margin: 30px auto;
   }
 }
