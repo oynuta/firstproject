@@ -156,3 +156,25 @@ footer i:hover {
   color: #a1c4fd;
   transform: translateY(-3px);
 }
+/* 🌸 Spacing Between Sections */
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about,
+#services,
+#portfolio {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Optional: subtle fade divider line between sections */
+section:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 60px auto 0;
+}
