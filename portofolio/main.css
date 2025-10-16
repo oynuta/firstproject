@@ -161,8 +161,8 @@ footer i:hover {
 }
 /* 🌸 Spacing Between Sections */
 section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 70px 20px;     /* was 100px */
+  margin: 50px auto;      /* was 80px */
 }
 
 .about,
@@ -180,4 +180,10 @@ section:not(:last-child)::after {
   height: 1px;
   background: rgba(255, 255, 255, 0.2);
   margin: 60px auto 0;
+}
+@media (max-width: 768px) {
+  section {
+    padding: 60px 15px;
+    margin: 40px auto;
+  }
 }
