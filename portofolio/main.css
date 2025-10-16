@@ -62,13 +62,16 @@ body {
   text-align: center;
 }
 
+
 .hero-img img {
   width: 320px;
   height: 320px;
+  border-radius: 50% !important; /* force circle */
   object-fit: cover;
-  border-radius: 50%;
   box-shadow: 0 10px 30px rgba(111, 66, 193, 0.3);
   transition: 0.5s ease;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-img img:hover {
