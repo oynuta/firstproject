@@ -178,9 +178,9 @@ footer i:hover {
     margin: 30px auto;
   }
 }
-/* --- FUTURE GOALS SECTION --- */
+
 .future-goals {
-  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  background: linear-gradient(135deg, rgba(173,216,230,0.7), rgba(135,206,250,0.9));
   padding: 80px 20px;
   text-align: center;
   color: #1e293b;
@@ -213,7 +213,7 @@ footer i:hover {
 }
 
 .goal-card {
-  background: white;
+  background: #ffffffc7;
   border-radius: 20px;
   padding: 25px;
   width: 280px;
@@ -224,6 +224,7 @@ footer i:hover {
 .goal-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  background: #ffffffee;
 }
 
 .goal-card h3 {
@@ -235,4 +236,3 @@ footer i:hover {
   color: #475569;
   font-size: 0.95rem;
 }
-
