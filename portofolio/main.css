@@ -1,0 +1,39 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.hero {
+  min-height: 80vh;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
