@@ -681,10 +681,17 @@ footer i:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   font-weight: 600;
   transition: all 0.3s ease;
+
 }
 
 .skills-tags span:hover {
   background: #5b6ef5;
   color: #fff;
   transform: translateY(-3px);
+}
+footer {
+  
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
