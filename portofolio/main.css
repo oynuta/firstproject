@@ -178,3 +178,61 @@ footer i:hover {
     margin: 30px auto;
   }
 }
+/* --- FUTURE GOALS SECTION --- */
+.future-goals {
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  padding: 80px 20px;
+  text-align: center;
+  color: #1e293b;
+  border-radius: 30px;
+  max-width: 1000px;
+  margin: 60px auto;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.future-goals h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.future-goals p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.goals-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.goal-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.goal-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.goal-card p {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
